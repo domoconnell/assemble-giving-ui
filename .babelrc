@@ -1,0 +1,20 @@
+{
+	"presets": [
+		"@babel/preset-react"
+	],
+	"plugins": [],
+	"ignore": [
+		"*.es5.*"
+	],
+	"env": {
+		"development": {
+			"plugins": []
+		},
+		"production": {
+			"presets": [
+				"react-optimize"
+			]
+		}
+	},
+	"sourceMaps": true
+}
